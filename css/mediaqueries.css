@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1200px) {
+  #mapid {
+    width: 100% !important;
+  }
+  .inputForm {
+    margin-left: 20% !important;
+    margin-right: 20% !important;
+  }
+  .inputForm button {
+    width: 100% !important;
+  }
+  .searchbar {
+    width: 100px;
+  }
+  .nav-link {
+    display: inline-block;
+    padding: 5px;
+  }
+  .card {
+    width: 45% !important;
+    float: left;
+    margin-left: 8px !important;
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .nav-item {
+    padding-left: 6rem;
+  }
+  .card {
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+  }
+}/*# sourceMappingURL=mediaqueries.css.map */
