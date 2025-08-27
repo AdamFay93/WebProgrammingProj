@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cart</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-xl">
+            <div class="container-fluid">
+                <h3>Furniture Sellers</h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-target="#navbarNav" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item" style="padding-left: 6rem;">
+                            <a class="nav-link" href="index.html" style="border: 1px solid black;border-radius: 15px;">Home</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 6rem;">
+                            <a class="nav-link" href="store.html" style="border: 1px solid black;border-radius: 15px;">Store</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 6rem;">
+                            <a class="nav-link" href="contact.html" style="border: 1px solid black;border-radius: 15px;">Contact Us</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 6rem;">
+                            <a class="nav-link" href="login.html" style="border: 1px solid black;border-radius: 15px;">Login</a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control searchbar" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <a href="cart.html" id = "cart"><img src="images/cart.png" style="height: 50px;"></a>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <main>
+            <button class="btn btn-outline-success" type="button" id="clear">Clear Cart</button>
+            <div id="DisplayItems">
+
+            </div>
+        </main>
+        <br>
+        <br>
+        <br>
+        <h1 style="color: white;float: left;width:100%">fin</h1> <!-- neccessary to allow the brs something to line break-->
+        <footer>
+            <p>For more information visit <a href="https://www.wikipedia.org/" target="_blank">here</a><br/>&copy;S00238688</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="script/script.js"></script>
+    </body>
+</html>
